@@ -2,8 +2,8 @@ h1 {
     color: rgb(194, 0, 197);
     font: status-bar;
     position: absolute;
-    left: 100px;
-    top: 150px;
+    left: 1000px;
+    top: 50px;
 }
 
 body{
