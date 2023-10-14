@@ -2,12 +2,12 @@ h1 {
     color: rgb(194, 0, 197);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: absolute;
-    left: 1000px;
-    top: 50px;
 }
 
 body{
-    background-color: rgb(60, 60, 60);
+    background-color: dimgray;
+    width: 1280px;
+    height: 720px;
 }
 
 button{
