@@ -1,3 +1,6 @@
 button{
-    background-color: aquamarine;
+    background-color: #A9A9A9;
+}
+button:hover{
+    background-color: #696969;
 }
