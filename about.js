@@ -1,4 +1,4 @@
 function toMainPage(){
-    window.location.href = "main.html";
+    window.location.href = "";
 }
 
