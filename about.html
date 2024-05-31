@@ -2,28 +2,48 @@
 <html>
 
 <head>
-<title>About redensy</title>
-<link rel="stylesheet" href="about.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ömer Elikalfa's personal website.">
+    <meta name="keywords" content="Ömer Elikalfa, redensy, GACA, Ömer Elikalfa's personal website">
+    <meta name="author" content="Ömer Elikalfa">
+    <meta name="robots" content="index, follow">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+    </style>
+
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a class="active" href="about.html">About</a>
+        <img src="src/redensy_logo.png">
+    </div>
+
+    <title>About redensy</title>
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="navbar.css" />
 </head>
 
 <body>
-<h1>Ömer Elikalfa</h1>
+    <header class="subHeader">
+        <h1>Ömer Elikalfa</h1>
+        <p>Born in Zonguldak/Turkey in 2007, i am a high school student interested in software development and electronics.
+            <br>Especially embedded systems recently. I have experience in Python, C, C++, C#, Windows Forms and Arduino C.
+            <br>Also i have worked with computer vision algorithms such as OpenCV. I used OpenCV with both Python and C++.
+        </p>
 
-<p>Born in Zonguldak/Turkey in 2007, i am a high school student interested in software development and electronics.</p>
-<p>Especially embedded systems recently. I have experience in Python, C, C++, C#, Windows Forms and Arduino C.</p>
-<p>Also i have worked with computer vision algorithms such as OpenCV. I used OpenCV with both Python and C++.</p>
-<br>
-<p>The PCB i made and currently working with.</p>
-<img src="src/gacakart.jpg" alt="Most Recent PCB I Made">
-<br>
-<p>The mission planner program i made with Windows Forms .NET for my autonomous drone project.</p>
-<img src="src/mission_planner.png" alt="mission_planner.png">
-<br>
-<p>The pre-flight test video of my autonomous drone project.</p>
-<a href="https://www.youtube.com/watch?v=t9N1vGA8gYg&t">Click here for the video</a>
-<br>
-<button onClick="toMainPage()">Main Page</button>
-<script src="about.js"></script>
+        <p>The PCB i made and currently working with.</p>
+        <img class="pcbImg" src="src/gacakart.jpg" alt="Most Recent PCB I Made">
+        <br>
+
+        <p>The mission planner program i made with Windows Forms .NET for my autonomous drone project.</p>
+        <img class="mpImg" src="src/mission_planner.png" alt="mission_planner.png">
+        <br>
+
+        <p>The pre-flight test video of my autonomous drone project.</p>
+        <a href="https://www.youtube.com/watch?v=t9N1vGA8gYg&t">Click here for the video</a>
+        <br>
+    </header>
 </body>
 
 </html>
